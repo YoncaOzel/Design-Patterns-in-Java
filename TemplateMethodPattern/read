@@ -1,8 +1,0 @@
-NOT:
-1. prepareRecipe() Metodu: Algoritmanın adımları burada sabittir. boilWater -> brew -> pourInCup -> addCondiments (Eğer müşteri isterse).
-
-2. customerWantsCondiments() Kancası: CaffeineBeverageWithHook sınıfında sadece return true diyerek basit bir varsayılan işlem yapar. Bu bir "Hook"tur.
-
-3. TeaWithHook: Bu sınıf Kancayı (Hook) override etmemiştir. Bu yüzden if (customerWantsCondiments()) her zaman true çıkar ve çaya limon eklenir.
-
-4. CoffeeWithHook: Bu sınıf Kancayı override etmiştir. getUserInput() metodu ile terminalden yanıt bekler. Eğer 'n' derseniz, addCondiments adımı atlanır ve çıktıda "Adding Sugar and Milk" yazısını görmezsiniz.
