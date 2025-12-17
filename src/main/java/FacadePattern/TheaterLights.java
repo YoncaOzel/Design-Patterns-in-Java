@@ -1,4 +1,4 @@
-package FacadePattern.HomeTheater;
+package FacadePattern;
 
 public class TheaterLights {
     public void dim(int level) {

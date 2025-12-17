@@ -1,4 +1,4 @@
-package FacadePattern.HomeTheater;
+package FacadePattern;
 
 public class Screen {
     public void down() {

@@ -1,0 +1,23 @@
+# Compiled class files
+*.class
+
+# Maven
+target/
+*.jar
+*.war
+*.ear
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+build/
+dist/

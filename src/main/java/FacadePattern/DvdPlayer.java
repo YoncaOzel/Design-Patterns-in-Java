@@ -1,4 +1,4 @@
-package FacadePattern.HomeTheater;
+package FacadePattern;
 
 public class DvdPlayer {
     public void on() {

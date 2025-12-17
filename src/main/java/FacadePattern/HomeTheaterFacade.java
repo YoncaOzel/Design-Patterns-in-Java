@@ -1,4 +1,4 @@
-package FacadePattern.HomeTheater;
+package FacadePattern;
 
 public class HomeTheaterFacade {
     private Amplifier amp;

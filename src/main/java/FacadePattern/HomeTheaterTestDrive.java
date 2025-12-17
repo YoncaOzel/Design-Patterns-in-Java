@@ -1,4 +1,4 @@
-package FacadePattern.HomeTheater;
+package FacadePattern;
 
 public class HomeTheaterTestDrive {
     public static void main(String[] args) {
