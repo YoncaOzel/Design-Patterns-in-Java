@@ -1,3 +1,5 @@
+package AdapterPattern;
+
 public class DuckTestDrive {
     public static void main(String[] args) {
         MallardDuck duck = new MallardDuck();
